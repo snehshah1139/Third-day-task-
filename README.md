@@ -1,50 +1,58 @@
 # Third-day-task-
 
-# 🎯 Task 3 - Linear Regression: Cancer Severity Prediction
+# Task 3 - Linear Regression: Cancer Severity Prediction
 
-## 📚 Objective
-Apply **Simple and Multiple Linear Regression** techniques to understand key factors influencing cancer severity scores.
+## Objective
+Apply simple and multiple linear regression techniques to understand key factors influencing cancer severity scores.
 
-## 🛠 Tools Used
+## Tools Used
 - Python
 - Pandas, NumPy
-- Scikit-Learn
+- Scikit-learn
 - Matplotlib, Seaborn
 
-## 📄 Dataset Details
+## Dataset Details
+The dataset includes:
 - Patient information (age, gender, country, health risks)
-- Medical records (cancer type, stage, cost)
-- Target: **Severity Score**
+- Medical records (cancer type, stage, treatment cost)
+- Target variable: Severity Score
 
-## 📈 Steps Performed
-1. **Data Loading and Cleaning**  
-   - Removed unnecessary columns (like `Patient_ID`, `Country_Region`).
+## Steps Performed
+1. Data Loading and Cleaning  
+   - Removed unnecessary columns such as Patient_ID and Country_Region.
+   
+2. Feature Selection  
+   - Focused on relevant numeric features for modeling.
 
-2. **Feature Selection**  
-   - Selected important numeric features for prediction.
+3. Data Splitting  
+   - Divided into training and testing sets (80/20 split).
 
-3. **Train-Test Split**  
-   - 80% for training, 20% for testing.
+4. Model Training  
+   - Used LinearRegression from sklearn to fit the model.
 
-4. **Model Building**  
-   - Applied Linear Regression using `sklearn.linear_model.LinearRegression()`.
+5. Evaluation  
+   - Calculated MAE, MSE, and R² score to assess model performance.
 
-5. **Evaluation Metrics**  
-   - MAE, MSE, RMSE, and R² Score computed.
+6. Coefficient Interpretation  
+   - Analyzed the importance of each feature based on model coefficients.
 
-6. **Interpretation of Coefficients**  
-   - Identified which features have the strongest influence on severity.
+7. Visualization  
+   - Plotted predicted vs actual severity scores to check the fit.
 
-7. **Visualization**  
-   - Plotted actual vs predicted severity scores.
+## Files Included
+- global_cancer_patients_2015_2024: Input dataset
+- `Task3_Linear_Regression.ipynb`: Full code and analysis
+- `README.md`: Task explanation and structure
 
-## 🧠 Key Insights
-- **Genetic Risk** and **Smoking** have the most positive impact on severity.
-- **Age** and **Year** have minimal effect.
-- **Public Health Actions** could focus on controlling lifestyle risks.
+## After puting Liner Regression,Ploat view
 
-## 🚀 Mission Focus
-Deliver work that is clean, insightful, and **ready for real-world ML projects**.
+![Screenshot (63)](https://github.com/user-attachments/assets/06d22739-568f-49c3-9192-a8b72cb6185f)
 
----
+# **Actual vs Predicted Plot – Model Accuracy Visualization**
 
+**If the model was guessing wrong, the dots would be scattered. But here, they all sit perfectly on the ideal line — proving the model has learned the relationship extremely well!**
+
+
+
+## Note
+The task focuses on clear understanding, feature interpretation, and professional model building.
