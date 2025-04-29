@@ -41,7 +41,7 @@ The dataset includes:
 
 ## Files Included
 - global_cancer_patients_2015_2024: Input dataset
-- `Task3_Linear_Regression.ipynb`: Full code and analysis
+- `Elevate_lab_task_D3`: Full code and analysis
 - `README.md`: Task explanation and structure
 
 ## After puting Liner Regression,Ploat view
